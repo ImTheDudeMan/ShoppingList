@@ -10,9 +10,9 @@ namespace ShoppingList.Api.Controllers
     [Route("api/[controller]")]
     public class CategoriesController : Controller
     {
-        private CategoryContext context;
+        private ShoppingListContext context;
 
-        public CategoriesController(CategoryContext context)
+        public CategoriesController(ShoppingListContext context)
         {
             this.context = context;
         }

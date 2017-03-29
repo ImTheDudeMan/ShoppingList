@@ -7,7 +7,7 @@ using ShoppingList.Ef;
 
 namespace ShoppingList.Ef.Migrations
 {
-    [DbContext(typeof(CategoryContext))]
+    [DbContext(typeof(ShoppingListContext))]
     [Migration("20170328182157_init")]
     partial class init
     {

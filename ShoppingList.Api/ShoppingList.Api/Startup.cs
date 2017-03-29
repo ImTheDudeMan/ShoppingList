@@ -31,7 +31,7 @@ namespace ShoppingList.Api
         {
             // Add framework services.
             services.AddMvc();
-            services.AddDbContext<CategoryContext>(options => options.UseSqlServer("Server=localhost;Database=ShoppingList;Integrated Security=true;"));
+            services.AddDbContext<ShoppingListContext>(options => options.UseSqlServer("Server=localhost;Database=ShoppingList;Integrated Security=true;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

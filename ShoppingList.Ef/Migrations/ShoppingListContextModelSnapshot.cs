@@ -7,8 +7,8 @@ using ShoppingList.Ef;
 
 namespace ShoppingList.Ef.Migrations
 {
-    [DbContext(typeof(CategoryContext))]
-    partial class CategoryContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ShoppingListContext))]
+    partial class ShoppingListContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

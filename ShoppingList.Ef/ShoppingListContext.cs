@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ShoppingList.Ef
 {
-    public class CategoryContext: DbContext
+    public class ShoppingListContext : DbContext
     {
-        public CategoryContext(DbContextOptions options): base(options)
+        public ShoppingListContext(DbContextOptions options): base(options)
         {
 
         }
